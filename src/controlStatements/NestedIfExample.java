@@ -10,9 +10,8 @@ import java.util.Scanner;
 
 public class NestedIfExample {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = input.nextInt();
+
+        int num = 10;
 
         if(num >= 0) {
             if(num % 2 == 0){
