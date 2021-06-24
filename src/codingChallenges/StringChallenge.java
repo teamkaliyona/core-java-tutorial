@@ -10,7 +10,6 @@ public class StringChallenge {
     public static void main(String[] args) {
         String firstName = "Aishwarya Rai";
         String lastName = " Bachchan";
-        firstName.su
 
         System.out.println("Full name is " + firstName.concat(lastName).toUpperCase());
         System.out.println("Middle name is " + firstName.substring(10));
