@@ -26,7 +26,7 @@ public class StringOperations {
         //System.out.println("Strings are equal " + str1.equals(str2));
         System.out.println("Strings are equal " + str1.equalsIgnoreCase(str2));
 
-        System.out.println("Is String starting with Ka " + str1.star    tsWith("Ka"));
+        System.out.println("Is String starting with Ka " + str1.startsWith("Ka"));
         System.out.println("Is String ending with na " + str1.endsWith("na ") );
 
         System.out.println("Substring is " + str1.substring(4, 6));
